@@ -1,29 +1,42 @@
-🏍️ Motorcycle Lean Angle Sensor
+Motorcycle Bank Angle & GPS Tracker
 
-This Android application uses a smartphone's internal sensors to accurately measure and log a motorcycle's lean angle (bank angle) in real-time. It provides a reliable and filtered angle that is robust against sensor noise and inaccuracies.
+MAIoT Project is an Android application providing real-time telemetry and ride logging. It uses the device's built-in sensors to calculate and display the motorcycle's bank angle in real time, while simultaneously tracking the ride path and logging key data.
+Features
 
-⚙️ How It Works
+    Real-time Bank Angle Display: Uses a combination of accelerometer and gyroscope data to calculate and display the current bank angle.
 
-The app combines data from the gyroscope and accelerometer using a Complementary Filter.
+    Maximum Bank Angle Logging: Automatically logs and saves the maximum left and right bank angles achieved during a ride.
 
-    Gyroscope: Tracks rapid changes in orientation, capturing the lean of a turn.
+    GPS Path Tracking: Utilizes OpenStreetMap (OSM) to display the rider's current position and draw a line representing the path driven.
 
-    Accelerometer: Provides a stable, long-term reference point using the force of gravity, which corrects the gyroscope's drift.
+    Complementary Filter: A robust complementary filter combines sensor data for smooth and reliable angle calculations.
 
-🚀 Key Features
+    Ride Management:
 
-    Real-Time Display: See your current lean angle live.
+        Calibration: A simple calibration sequence at the start of each session ensures accurate sensor readings.
 
-    Automated Calibration: Simple routine to zero the angle to your bike's upright position.
+        Start/Stop Functionality: Users can easily start and stop a ride to begin and end a logging session.
 
-    Max Angle Logging: Tracks the maximum positive (right-hand) and negative (left-hand) lean angles.
+    Journey Summary: After a ride is stopped, a dedicated summary activity provides a complete overview, including the full path driven on the map, the total distance, and the maximum bank angles achieved.
 
-    GPS Tracking: Visualizes your ride path on a map.
+How to Use
 
-🛠️ Usage
+    Initial Calibration: At the beginning of your ride, perform the calibration sequence as prompted by the application to ensure sensor accuracy.
 
-    Mount the Smartphone: Securely place the phone in an upright position on your bike.
+    Start Your Journey: Press the Start button to begin receiving sensor data and logging your ride. The map will show your position, and the bank angle will be displayed below it.
 
-    Calibrate: With the bike upright and stationary, press "Start Calibration."
+    End Your Ride: Press the Stop button to end the logging session. You will be taken to a summary screen.
 
-    Track: Begin your ride and press "Start Tracking" to log your data. The app will display your lean angle and maximums.
+    View Summary: The summary screen displays the entire path of your ride on the map, the total distance, and your maximum recorded left and right bank angles.
+
+Technology Stack
+
+    Development Language: Java
+
+    Platform: Android
+
+    Sensors: Accelerometer and Gyroscope
+
+    Mapping: OpenStreetMap (OSM)
+
+    Data Processing: Custom-implemented Complementary Filter for sensor fusion.
