@@ -3,17 +3,17 @@
 <p> MAIoT Project is an Android application providing real-time telemetry and ride logging. It uses the device's built-in sensors to calculate and display the motorcycle's bank angle in real time, while simultaneously tracking the ride path and logging key data.
 Features </p>
 
-- Real-time Bank Angle Display: Uses a combination of accelerometer and gyroscope data to calculate and display the current bank angle.
+- **Real-time Bank Angle Display**: Uses a combination of accelerometer and gyroscope data to calculate and display the current bank angle.
 
-- Maximum Bank Angle Logging: Automatically logs and saves the maximum left and right bank angles achieved during a ride.
+- **Maximum Bank Angle Logging**: Automatically logs and saves the maximum left and right bank angles achieved during a ride.
 
-- GPS Path Tracking: Utilizes OpenStreetMap (OSM) to display the rider's current position and draw a line representing the path driven.
+- **GPS Path Tracking**: Utilizes OpenStreetMap (OSM) to display the rider's current position and draw a line representing the path driven.
 
-- Complementary Filter: A robust complementary filter combines sensor data for smooth and reliable angle calculations.
+- **Complementary Filter**: A robust complementary filter combines sensor data for smooth and reliable angle calculations.
 
-    Ride Management:
+- **Ride Management**:
 
-        Calibration: A simple calibration sequence at the start of each session ensures accurate sensor readings.
+- - Calibration: A simple calibration sequence at the start of each session ensures accurate sensor readings.
 
         Start/Stop Functionality: Users can easily start and stop a ride to begin and end a logging session.
 
