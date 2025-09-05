@@ -13,7 +13,7 @@ Features </p>
 
 - **Ride Management**:
 
-- - Calibration: A simple calibration sequence at the start of each session ensures accurate sensor readings.
+  - Calibration: A simple calibration sequence at the start of each session ensures accurate sensor readings.
 
         Start/Stop Functionality: Users can easily start and stop a ride to begin and end a logging session.
 
