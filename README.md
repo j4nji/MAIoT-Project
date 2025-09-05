@@ -13,30 +13,30 @@ Features </p>
 
 - **Ride Management**:
 
-  - Calibration: A simple calibration sequence at the start of each session ensures accurate sensor readings.
+  - **Calibration**: A simple calibration sequence at the start of each session ensures accurate sensor readings.
 
-  - Start/Stop Functionality: Users can easily start and stop a ride to begin and end a logging session.
+  - **Start/Stop Functionality**: Users can easily start and stop a ride to begin and end a logging session.
 
-- Journey Summary: After a ride is stopped, a dedicated summary activity provides a complete overview, including the full path driven on the map, the total distance, and the maximum bank angles achieved.
+- **Journey Summary**: After a ride is stopped, a dedicated summary activity provides a complete overview, including the full path driven on the map, the total distance, and the maximum bank angles achieved.
 
 <H3> How to Use </H3>
 
-- Initial Calibration: At the beginning of your ride, perform the calibration sequence as prompted by the application to ensure sensor accuracy.
+- **Initial Calibration**: At the beginning of your ride, perform the calibration sequence as prompted by the application to ensure sensor accuracy.
 
-- Start Your Journey: Press the Start button to begin receiving sensor data and logging your ride. The map will show your position, and the bank angle will be displayed below it.
+- **Start Your Journey**: Press the Start button to begin receiving sensor data and logging your ride. The map will show your position, and the bank angle will be displayed below it.
 
-- End Your Ride: Press the Stop button to end the logging session. You will be taken to a summary screen.
+- **End Your Ride**: Press the Stop button to end the logging session. You will be taken to a summary screen.
 
-- View Summary: The summary screen displays the entire path of your ride on the map, the total distance, and your maximum recorded left and right bank angles.
+- **View Summary**: The summary screen displays the entire path of your ride on the map, the total distance, and your maximum recorded left and right bank angles.
 
 <H3> Technology Stack </H3>
 
-- Development Language: Java
+- **Development Language**: Java
 
-- Platform: Android
+- **Platform**: Android
 
-- Sensors: Accelerometer and Gyroscope
+- **Sensors**: Accelerometer and Gyroscope
 
-- Mapping: OpenStreetMap (OSM)
+- **Mapping**: OpenStreetMap (OSM)
 
-- Data Processing: Custom-implemented Complementary Filter for sensor fusion
+- **Data Processing**: Custom-implemented Complementary Filter for sensor fusion
